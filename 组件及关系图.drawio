@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-23T07:53:12.062Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="HwX_9rtPWyyZSb8-9_Ya" version="14.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-23T08:01:48.754Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="cFF5mv1g0nktDLWqFhOW" version="14.5.0" type="github">
   <diagram id="_3LncPrsmreKFIglYwDI" name="Page-1">
-    <mxGraphModel dx="1796" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1391" dy="351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -107,13 +107,13 @@
           <mxGeometry x="160" y="640" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cP5ySLdVDg7BmedUUOFs-42" value="Pass" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="-360" y="760" width="120" height="80" as="geometry" />
+          <mxGeometry x="-360" y="760" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cP5ySLdVDg7BmedUUOFs-43" value="Kernel" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="760" width="170" height="80" as="geometry" />
+          <mxGeometry x="-220" y="760" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cP5ySLdVDg7BmedUUOFs-44" value="Dataflow" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="760" width="180" height="80" as="geometry" />
+          <mxGeometry x="-40" y="760" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cP5ySLdVDg7BmedUUOFs-48" value="Target Backend" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;align=center;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-370" y="850" width="510" height="60" as="geometry" />
@@ -126,6 +126,21 @@
         </mxCell>
         <mxCell id="cP5ySLdVDg7BmedUUOFs-51" value="Dorado" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="-100" y="880" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cP5ySLdVDg7BmedUUOFs-53" value="Resource management" style="rounded=0;whiteSpace=wrap;html=1;align=center;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="660" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cP5ySLdVDg7BmedUUOFs-54" value="Generator/Transformer" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="790" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cP5ySLdVDg7BmedUUOFs-55" value="Compiler" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="810" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cP5ySLdVDg7BmedUUOFs-56" value="Generator/Transformer" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="790" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cP5ySLdVDg7BmedUUOFs-57" value="Compiler" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="810" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
