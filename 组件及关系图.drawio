@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-23T08:47:49.719Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="Efh2fwAD_WkBMH1SzpDI" version="14.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-23T08:56:01.154Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="X6PW4yY3g_w4azZP6iwO" version="14.5.0" type="github">
   <diagram id="_3LncPrsmreKFIglYwDI" name="Page-1">
     <mxGraphModel dx="2031" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -180,10 +180,46 @@
           <mxGeometry x="20" y="880" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="cP5ySLdVDg7BmedUUOFs-76" value="LLIR" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="-390" y="940" width="680" height="210" as="geometry" />
+          <mxGeometry x="-390" y="940" width="680" height="190" as="geometry" />
         </mxCell>
         <mxCell id="cP5ySLdVDg7BmedUUOFs-77" value="LLIR Builder" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="-380" y="970" width="660" height="30" as="geometry" />
+          <mxGeometry x="-380" y="970" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cP5ySLdVDg7BmedUUOFs-78" value="IR" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="1010" width="390" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cP5ySLdVDg7BmedUUOFs-79" value="Convertor" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="1090" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cP5ySLdVDg7BmedUUOFs-80" value="Pass" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;shadow=1;fillColor=#CCFF99;" vertex="1" parent="1">
+          <mxGeometry x="20" y="970" width="130" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cP5ySLdVDg7BmedUUOFs-81" value="DMA optimization" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;align=center;fillColor=#CCFF99;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1000" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cP5ySLdVDg7BmedUUOFs-82" value="Memory Allocation" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;align=center;fillColor=#CCFF99;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1020" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cP5ySLdVDg7BmedUUOFs-83" value="Func param layout" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1040" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cP5ySLdVDg7BmedUUOFs-84" value="Kernel prefetch" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1060" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cP5ySLdVDg7BmedUUOFs-85" value="Validation" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1080" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cP5ySLdVDg7BmedUUOFs-86" value="Memory Pool" style="rounded=0;whiteSpace=wrap;html=1;align=center;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="970" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cP5ySLdVDg7BmedUUOFs-87" value="MC bank allocator" style="rounded=0;whiteSpace=wrap;html=1;align=center;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1010" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cP5ySLdVDg7BmedUUOFs-88" value="Pass Option" style="rounded=0;whiteSpace=wrap;html=1;align=center;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1050" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cP5ySLdVDg7BmedUUOFs-89" value="Utilities" style="rounded=0;whiteSpace=wrap;html=1;align=center;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1090" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
