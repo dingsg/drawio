@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2021-03-10T06:51:28.492Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="rUDripibwcIZwCElRTxM" version="14.4.6" type="github"><diagram id="_3LncPrsmreKFIglYwDI" name="Page-1">rZTPb4MgFID/Go5LFFZnj21n1yxdeuhhu1KhQgJikE7tXz+cz19plqzLTj4+Hg/4eBGRja5fLC3Em2FcIRywGpFnhDEOosh/WtJ0JAzjRUcyKxmwERzllQMMgF4k4+Us0RmjnCzmMDV5zlM3Y9RaU83TzkbNdy1oxm/AMaXqlr5L5kRH40Uw8h2Xmeh3DgOY0bRPBlAKykw1QSRBZGONcV2k6w1Xrb3eS7du+8PscDDLc/ebBfpcyZO4LquDeNVpUpe5aR6gyidVF7gwSiIUJ2i1QMkCxVu0Im2wDlGM4R6u6eVYc8kZb+sHiKwrIR0/FjRtZyvfD54Jp5UfhT6kSma5jxU/+/OuYWNuHa9/vFE4ePIdxo3mzjY+BRY8QitBb2ECpqvxoZ4iYGLySEtgFHojGyqP+nwABu+wiW9sSl0Yf0Pm6cd+5Yvu9geEI6pbOfmpLAYTf9X6Dx7DvkV7kb3YicghZyoyul+kH44t/z03+XOQ5As=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-23T06:33:57.484Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="Tyf5jWzVnvpONdGWk5Y6" version="14.5.0" type="github">
+  <diagram id="_3LncPrsmreKFIglYwDI" name="Page-1">
+    <mxGraphModel dx="788" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mfwibhz9wOhJmcExsnoy-1" value="HLIR" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="40" y="340" width="650" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="mfwibhz9wOhJmcExsnoy-2" value="DTU Compiler&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="40" y="190" width="650" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cP5ySLdVDg7BmedUUOFs-1" value="HLIR Compiler" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="50" y="220" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cP5ySLdVDg7BmedUUOFs-2" value="GraphIR Compiler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="220" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cP5ySLdVDg7BmedUUOFs-3" value="HLO to HLIR convertor&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="380" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cP5ySLdVDg7BmedUUOFs-4" value="HLIR to Factor&amp;nbsp;convertor&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="380" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cP5ySLdVDg7BmedUUOFs-5" value="HLO pass" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="260" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cP5ySLdVDg7BmedUUOFs-6" value="DTU HLO pass" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="260" width="100" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
