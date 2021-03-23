@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-23T10:35:19.694Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="kiuaglt2wSFfVh_rwh8M" version="14.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-23T12:16:29.622Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="gRCil1aJoyUNnWBRLQ47" version="14.5.0" type="github">
   <diagram id="_3LncPrsmreKFIglYwDI" name="Page-1">
-    <mxGraphModel dx="1391" dy="351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2031" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -262,6 +262,12 @@
         </mxCell>
         <mxCell id="cP5ySLdVDg7BmedUUOFs-103" value="CPU function manager" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
           <mxGeometry x="510" y="1240" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cP5ySLdVDg7BmedUUOFs-106" value="LLVM DTU Compiler" style="rounded=0;whiteSpace=wrap;html=1;align=center;shadow=1;fillColor=#CCFF99;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="770" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cP5ySLdVDg7BmedUUOFs-107" value="Kernel Manager" style="rounded=0;whiteSpace=wrap;html=1;align=center;shadow=1;fillColor=#CCFF99;" vertex="1" parent="1">
+          <mxGeometry x="160" y="850" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
