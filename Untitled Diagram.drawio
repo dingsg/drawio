@@ -1,115 +1,98 @@
-<mxfile host="app.diagrams.net" modified="2021-03-29T06:09:21.515Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="VjWQJuMYgG0k1Z-3p0sc" version="14.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-29T06:28:30.184Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="oHDaiuKiDCpQ9oJL5TV-" version="14.5.3" type="github">
   <diagram id="taeaYRBbFjVMlUvFC_3z" name="Page-1">
-    <mxGraphModel dx="1722" dy="988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2066" dy="1213" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-41" value="常规数据流操作" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFF99;" vertex="1" parent="1">
-          <mxGeometry x="70" y="270" width="120" height="60" as="geometry" />
+        <mxCell id="hjvbUQlDtj1CQm6YHC1N-76" value="算子需求" style="swimlane;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="210" y="30" width="530" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-42" value="循环数据流操作" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF99;" vertex="1" parent="1">
-          <mxGeometry x="70" y="350" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-67" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hjvbUQlDtj1CQm6YHC1N-43" target="hjvbUQlDtj1CQm6YHC1N-41">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-68" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hjvbUQlDtj1CQm6YHC1N-43" target="hjvbUQlDtj1CQm6YHC1N-42">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-71" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hjvbUQlDtj1CQm6YHC1N-43" target="hjvbUQlDtj1CQm6YHC1N-46">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-43" value="数据流push执行模式" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF99;" vertex="1" parent="1">
-          <mxGeometry x="305" y="240" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-69" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hjvbUQlDtj1CQm6YHC1N-44" target="hjvbUQlDtj1CQm6YHC1N-41">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-70" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hjvbUQlDtj1CQm6YHC1N-44" target="hjvbUQlDtj1CQm6YHC1N-42">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-72" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hjvbUQlDtj1CQm6YHC1N-44" target="hjvbUQlDtj1CQm6YHC1N-46">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="300" y="350" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-44" value="数据流pull执行模式" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF99;" vertex="1" parent="1">
-          <mxGeometry x="305" y="320" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-45" value="数据流mixed执行模式" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
-          <mxGeometry x="305" y="400" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-46" value="SIP Kernel Code&lt;br&gt;参数通用处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFF99;" vertex="1" parent="1">
-          <mxGeometry x="70" y="190" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-47" value="Factor同步接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="500" y="80" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-49" value="静态资源管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="360" y="80" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-50" value="4C算子" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="510" y="470" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-52" value="Device/Device Manager通用定义" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="640" y="690" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-53" value="计算图优化AutoTuner" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="450" y="320" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-54" value="数据流优化AutoTuner" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="450" y="240" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-55" value="Conv/Dot Kernel Code自动生成" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="460" y="400" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-56" value="Elementwise算子Fusion" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="640" y="80" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-59" value="New Executable" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="70" y="430" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-60" value="Virtual Device(Group)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="305" y="480" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-75" value="Container" style="swimlane;fillColor=#CCFF99;" vertex="1" parent="1">
-          <mxGeometry x="60" y="150" width="140" height="530" as="geometry" />
-        </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-76" value="Container" style="swimlane;fillColor=#CCFF99;" vertex="1" parent="1">
-          <mxGeometry x="210" y="40" width="560" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-48" value="动态资源管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="hjvbUQlDtj1CQm6YHC1N-76">
+        <mxCell id="hjvbUQlDtj1CQm6YHC1N-56" value="Elementwise算子Fusion" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="hjvbUQlDtj1CQm6YHC1N-76" vertex="1">
           <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-77" value="Container" style="swimlane;fillColor=#CCFF99;" vertex="1" parent="1">
-          <mxGeometry x="780" y="150" width="140" height="530" as="geometry" />
+        <mxCell id="hjvbUQlDtj1CQm6YHC1N-50" value="4C算子" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="hjvbUQlDtj1CQm6YHC1N-76" vertex="1">
+          <mxGeometry x="140" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-62" value="推理/训练混合精度支持" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="hjvbUQlDtj1CQm6YHC1N-77">
+        <mxCell id="hjvbUQlDtj1CQm6YHC1N-77" value="应用需求" style="swimlane;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="750" y="150" width="140" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="hjvbUQlDtj1CQm6YHC1N-62" value="推理/训练混合精度支持" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="hjvbUQlDtj1CQm6YHC1N-77" vertex="1">
           <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-66" value="while and if" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="hjvbUQlDtj1CQm6YHC1N-77">
-          <mxGeometry x="10" y="120" width="120" height="60" as="geometry" />
+        <mxCell id="hjvbUQlDtj1CQm6YHC1N-66" value="while and if" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="hjvbUQlDtj1CQm6YHC1N-77" vertex="1">
+          <mxGeometry x="10" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-63" value="自定义算子支持" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="hjvbUQlDtj1CQm6YHC1N-77">
-          <mxGeometry x="10" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="hjvbUQlDtj1CQm6YHC1N-65" value="executable级别任务调度" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="hjvbUQlDtj1CQm6YHC1N-77" vertex="1">
+          <mxGeometry x="10" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-64" value="算子的自动测试框架" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="hjvbUQlDtj1CQm6YHC1N-77">
-          <mxGeometry x="10" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="hjvbUQlDtj1CQm6YHC1N-63" value="自定义算子支持" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="hjvbUQlDtj1CQm6YHC1N-77" vertex="1">
+          <mxGeometry x="10" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-65" value="executable级别任务调度" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="hjvbUQlDtj1CQm6YHC1N-77">
-          <mxGeometry x="10" y="360" width="120" height="60" as="geometry" />
+        <mxCell id="hjvbUQlDtj1CQm6YHC1N-78" value="内部研发需求" style="swimlane;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="210" y="620" width="530" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-78" value="Container" style="swimlane;fillColor=#CCFF99;" vertex="1" parent="1">
-          <mxGeometry x="210" y="630" width="560" height="110" as="geometry" />
+        <mxCell id="hjvbUQlDtj1CQm6YHC1N-51" value="Target通用定义" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="hjvbUQlDtj1CQm6YHC1N-78" vertex="1">
+          <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-51" value="Target通用定义" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="hjvbUQlDtj1CQm6YHC1N-78">
-          <mxGeometry x="10" y="30" width="120" height="60" as="geometry" />
+        <mxCell id="hjvbUQlDtj1CQm6YHC1N-61" value="规范化日志" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="hjvbUQlDtj1CQm6YHC1N-78" vertex="1">
+          <mxGeometry x="140" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-61" value="规范化日志" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="hjvbUQlDtj1CQm6YHC1N-78">
-          <mxGeometry x="150" y="30" width="120" height="60" as="geometry" />
+        <mxCell id="hjvbUQlDtj1CQm6YHC1N-58" value="统一维度信息表征" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="hjvbUQlDtj1CQm6YHC1N-78" vertex="1">
+          <mxGeometry x="270" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hjvbUQlDtj1CQm6YHC1N-58" value="统一维度信息表征" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="hjvbUQlDtj1CQm6YHC1N-78">
-          <mxGeometry x="290" y="30" width="120" height="60" as="geometry" />
+        <mxCell id="hjvbUQlDtj1CQm6YHC1N-52" value="Device/Device Manager通用定义" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="hjvbUQlDtj1CQm6YHC1N-78" vertex="1">
+          <mxGeometry x="400" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hjvbUQlDtj1CQm6YHC1N-64" value="算子的自动测试框架" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="hjvbUQlDtj1CQm6YHC1N-78" vertex="1">
+          <mxGeometry x="10" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iH2XMJev_RDuTvqKuXAZ-1" value="核心功能需求" style="swimlane;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="210" y="150" width="530" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="hjvbUQlDtj1CQm6YHC1N-45" value="数据流mixed执行模式" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" parent="iH2XMJev_RDuTvqKuXAZ-1" vertex="1">
+          <mxGeometry x="400" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hjvbUQlDtj1CQm6YHC1N-54" value="数据流优化AutoTuner" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="iH2XMJev_RDuTvqKuXAZ-1" vertex="1">
+          <mxGeometry x="270" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hjvbUQlDtj1CQm6YHC1N-43" value="数据流push执行模式" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF99;" parent="iH2XMJev_RDuTvqKuXAZ-1" vertex="1">
+          <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hjvbUQlDtj1CQm6YHC1N-44" value="数据流pull执行模式" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF99;" parent="iH2XMJev_RDuTvqKuXAZ-1" vertex="1">
+          <mxGeometry x="140" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hjvbUQlDtj1CQm6YHC1N-53" value="计算图优化AutoTuner" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="iH2XMJev_RDuTvqKuXAZ-1" vertex="1">
+          <mxGeometry x="400" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hjvbUQlDtj1CQm6YHC1N-59" value="New Executable" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="iH2XMJev_RDuTvqKuXAZ-1" vertex="1">
+          <mxGeometry x="10" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hjvbUQlDtj1CQm6YHC1N-55" value="Conv/Dot Kernel Code自动生成" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="iH2XMJev_RDuTvqKuXAZ-1" vertex="1">
+          <mxGeometry x="140" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hjvbUQlDtj1CQm6YHC1N-60" value="Virtual Device(Group)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="iH2XMJev_RDuTvqKuXAZ-1" vertex="1">
+          <mxGeometry x="270" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hjvbUQlDtj1CQm6YHC1N-47" value="Factor同步接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="iH2XMJev_RDuTvqKuXAZ-1" vertex="1">
+          <mxGeometry x="400" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iH2XMJev_RDuTvqKuXAZ-10" value="基础功能需求" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="60" y="150" width="140" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="hjvbUQlDtj1CQm6YHC1N-46" value="SIP Kernel Code&lt;br&gt;参数通用处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFF99;" parent="iH2XMJev_RDuTvqKuXAZ-10" vertex="1">
+          <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hjvbUQlDtj1CQm6YHC1N-41" value="常规数据流操作" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFF99;" parent="iH2XMJev_RDuTvqKuXAZ-10" vertex="1">
+          <mxGeometry x="10" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hjvbUQlDtj1CQm6YHC1N-42" value="循环数据流操作" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF99;" parent="iH2XMJev_RDuTvqKuXAZ-10" vertex="1">
+          <mxGeometry x="10" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hjvbUQlDtj1CQm6YHC1N-48" value="动态资源管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="iH2XMJev_RDuTvqKuXAZ-10" vertex="1">
+          <mxGeometry x="10" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hjvbUQlDtj1CQm6YHC1N-49" value="静态资源管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="iH2XMJev_RDuTvqKuXAZ-10" vertex="1">
+          <mxGeometry x="10" y="320" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
