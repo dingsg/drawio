@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-31T13:54:58.161Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="jBGKRoNlq9iBlvK8T80i" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-31T13:55:57.465Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="U2ju3z5-03YJ-9FgG9BN" version="14.5.3" type="github">
   <diagram id="xbi6CaxQrKVM7JGjkz7K" name="Page-1">
     <mxGraphModel dx="2916" dy="1185" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -51,9 +51,6 @@
         </mxCell>
         <mxCell id="AnicBnXjJZj8mplxI-TX-23" value="舒棚" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;shadow=1;align=center;fillColor=#B3FF66;" vertex="1" parent="1">
           <mxGeometry x="-425" y="355" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="AnicBnXjJZj8mplxI-TX-25" value="Leader: 吴长平" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;shadow=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1355" y="410" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AnicBnXjJZj8mplxI-TX-26" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
